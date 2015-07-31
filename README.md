@@ -1,21 +1,9 @@
-##Steps to deploy in gh-pages
+# Gophercon.ae
 
-1. git clone https://github.com/Qwinix/gophercon.ae.git
-2. git pull origin master
-3. git checkout gh-pages
-4. git status
-5. git fetch
-6. git merge master
+This is the github repository for the jekyll app which is serving gophercon.ae
 
-##add below line in _config.yml
-#github_project_name: /gophercon.ae
-##(add this line only if this is not present in _config.yml in gh-pages)
+### Setup
 
-7. git add .
-8. git commit -m “adding line in config.yml”
-9. git status
-10. git push origin gh-pages
-##(latest changes will be auto deployed to gh-pages. check the changes in below link)
+git clone git@github.com:GopherconDubai/GopherconDubai.github.io.git
 
-##http://qwinix.github.io/gophercon.ae/
 
