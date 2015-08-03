@@ -1,6 +1,7 @@
 # Gophercon.ae
 
-This is the github repository for the jekyll app which is serving gophercon.ae
+This is the github repository for gophercon.ae
+Basic HTML file with Javascript and CSS
 
 ### Setup
 
