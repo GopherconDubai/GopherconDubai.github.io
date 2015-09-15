@@ -51,7 +51,7 @@ Modules - reusable parts of our design
 .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  background-image: url('../img/go-logo-uae.png');
+  background-image: url('../images/go-logo-uae.png');
   background-repeat: no-repeat;
   background-position: right center;
   background-color: transparent;
@@ -105,7 +105,7 @@ Main components
   margin-right: 5%;
   width: 44px;
   height: 100%;
-  background: url("../img/cd-icon-menu.svg") no-repeat center center;
+  background: url("../images/cd-icon-menu.svg") no-repeat center center;
   background-size: 44px 44px;
   cursor: pointer;
 }
@@ -218,16 +218,16 @@ Main components
   /*color: white;*/
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../img/cd-background-1.jpg");
+  background-image: url("../images/cd-background-1.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("../img/cd-background-2.jpg");
+  background-image: url("../images/cd-background-2.jpg");
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/cd-background-3.jpg");
+  background-image: url("../images/cd-background-3.jpg");
 }
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url("../img/cd-background-4.jpg");
+  background-image: url("../images/cd-background-4.jpg");
 }
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
@@ -300,7 +300,7 @@ Main components
 .footer p {
   margin: 0;
 }
-.footer img {
+.footer img{
   max-width: 100%;
 }
 .footer h3 {
