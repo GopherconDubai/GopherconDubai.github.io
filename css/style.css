@@ -104,7 +104,7 @@ Main components
 }
 .cd-main-nav ul {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
   width: 100%;
   -webkit-transform: translateY(-100%);
@@ -228,7 +228,7 @@ Main components
   border-bottom:2px solid #bcbcbc;
   color: #3F1237;
   padding:1.22em;
-  width:35%;
+  width:50%;
   margin:auto auto;
 }
 .sponsors_image {
@@ -338,13 +338,9 @@ h3 {
 .footer-nav {
   margin-top: 10px;
   margin-left: 2px;
-  
-
 }
 .footer-nav ul li {
-  display: inline;
-/*  padding-left: 5px;
-*/  padding-right: 5px;  
+  display: inline;  
 }
 .footer-nav ul li a {
   color:#b6a4c1;
@@ -524,6 +520,10 @@ h3 {
     line-height: 2;
     font-weight: 300;
   }
+.footer-nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;  
+}
 
     }
  /* Medium Devices, Desktops */
@@ -691,7 +691,12 @@ h3 {
     line-height: 2;
     font-weight: 300;
   }
-    }
+.footer-nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;  
+}
+
+  }
  /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   .cd-header {
@@ -851,12 +856,163 @@ h3 {
     line-height: 2;
     font-weight: 300;
   }
-.footer-bottom .copyright {
-  width: 45%;
+
+   }
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .cd-header {
+    height: 70px;
+  }
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
 }
-.footer-bottom .footer-logo {
-  width: 10%;
-  float: left;
-  display: inline;
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
 }
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  /*color: white;*/
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 36px;
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 58px;
+  font-weight: 300;
+  color:#3F1237;
+  text-shadow: 1px 1px #3F1237;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+    }
+    /* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+      .cd-header {
+    height: 70px;
+  }
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  /*color: white;*/
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 36px;
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 58px;
+  font-weight: 300;
+  color:#3F1237;
+  text-shadow: 1px 1px #3F1237;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
     }
