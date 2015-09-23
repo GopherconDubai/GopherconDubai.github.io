@@ -231,7 +231,7 @@ Main components
   border-bottom:2px solid #bcbcbc;
   color: #3F1237;
   padding:1.22em;
-  width:50%;
+  width:100%;
   margin:auto auto;
 }
 .sponsors_image {
@@ -407,6 +407,9 @@ h3 {
 }
 .more:focus {
   color: white
+}
+.more:hover {
+  background-color: rgba(63, 18, 55, 0.55);
 }
 
 /* Large Devices, Wide Screens */
