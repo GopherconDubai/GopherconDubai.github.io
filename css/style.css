@@ -135,10 +135,8 @@ Main components
 }
 .cd-scrolling-bg {
   position: relative;
-  min-height: 100%;
+/*  min-height: 100%;*/
   padding: 1em 0;
-  /*line-height: 1.6;*/
-  /*box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);*/
   z-index: 2;
 }
 .cd-scrolling-bg h2 {
