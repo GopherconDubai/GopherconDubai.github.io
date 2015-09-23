@@ -140,7 +140,8 @@ Main components
   /*line-height: 1.6;*/
   /*box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);*/
   z-index: 2;
-}.cd-scrolling-bg h2 {
+}
+.cd-scrolling-bg h2 {
   font-family:'Open Sans';
   text-align: left;
 }
@@ -248,7 +249,6 @@ p.home-paragraph {
   line-height: 1.8;
   margin-top: -15px;
   text-align: justify;
-
 }
 p a {
     color: #3F1237;
@@ -280,8 +280,33 @@ p a:focus {
     width: 90%;
     z-index: 2;
 }
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color:#3F1237;
+  text-shadow: 1px 1px #3F1237;
+}
 h2 {
   text-align: center;
+}
+.dubai {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 50px;
+  font-family: 'Play', sans-serif;
+}
+.home-dubai {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+}
+.home-sub {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(63, 18, 55, 0.3);
+  padding:20px; 
+  border-radius: 4px;
 }
 h3 {
   font-size: 28px;
@@ -363,7 +388,7 @@ h3 {
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1201px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -489,10 +514,20 @@ h3 {
   width: 90%;
   max-width: 1170px;
   text-align: center;
-  font-size: 30px;
-  font-size: 1.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 80px;
   /*color: white;*/
+}
+.home-dubai {
+  font-size: 60px;
+}
+.home-sub {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(63, 18, 55, 0.3);
+  padding: 15px; 
+  border-radius: 4px;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/cd-background-1.jpg");
@@ -506,17 +541,8 @@ h3 {
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../images/cd-background-4.jpg");
 }
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 36px;
-}
 .cd-fixed-bg {
   background-attachment: fixed;
-}
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 58px;
-  font-weight: 300;
-  color:#3F1237;
-  text-shadow: 1px 1px #3F1237;
 }
 .cd-scrolling-bg p{
     padding: 1em 0;
@@ -532,7 +558,7 @@ h3 {
 
     }
  /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 993px) and (max-width : 1200px) {
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -657,10 +683,17 @@ h3 {
   width: 90%;
   max-width: 1170px;
   text-align: center;
-  font-size: 30px;
-  font-size: 1.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 60px;
   /*color: white;*/
+}
+.home-dubai {
+  font-size: 40px;
+}
+.home-sub {
+  font-size: 20px;
+  padding: 15px; 
+  border-radius: 4px;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/cd-background-1.jpg");
@@ -674,17 +707,8 @@ h3 {
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../images/cd-background-4.jpg");
 }
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 36px;
-}
 .cd-fixed-bg {
   background-attachment: fixed;
-}
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 58px;
-  font-weight: 300;
-  color:#3F1237;
-  text-shadow: 1px 1px #3F1237;
 }
 .cd-scrolling-bg p{
     padding: 1em 0;
@@ -700,7 +724,7 @@ h3 {
 
   }
  /* Small Devices, Tablets */
-@media only screen and (min-width : 780px) {
+@media only screen and (min-width : 781px) and (max-width : 992px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -820,10 +844,18 @@ h3 {
   width: 90%;
   max-width: 1170px;
   text-align: center;
-  font-size: 30px;
-  font-size: 1.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
   /*color: white;*/
+}
+.home-dubai {
+  font-size: 32px;
+}
+.home-sub {
+  font-size: 20px;
+  padding: 12px; 
+  border-radius: 4px;
+  margin-top: 10px;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/cd-background-1.jpg");
@@ -837,17 +869,8 @@ h3 {
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../images/cd-background-4.jpg");
 }
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 36px;
-}
 .cd-fixed-bg {
   background-attachment: fixed;
-}
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 58px;
-  font-weight: 300;
-  color:#3F1237;
-  text-shadow: 1px 1px #3F1237;
 }
 .cd-scrolling-bg p{
     padding: 1em 0;
@@ -857,7 +880,7 @@ h3 {
 
    }
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 481px) and (max-width : 780px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -896,10 +919,18 @@ h3 {
   width: 90%;
   max-width: 1170px;
   text-align: center;
-  font-size: 30px;
-  font-size: 1.875rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 45px;
   /*color: white;*/
+}
+.home-dubai {
+  font-size: 35px;
+}
+.home-sub {
+  font-size: 20px;
+  padding: 12px; 
+  border-radius: 4px;
+  margin-top: 15px;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/cd-background-1.jpg");
@@ -913,17 +944,8 @@ h3 {
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../images/cd-background-4.jpg");
 }
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 36px;
-}
 .cd-fixed-bg {
   background-attachment: fixed;
-}
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 58px;
-  font-weight: 300;
-  color:#3F1237;
-  text-shadow: 1px 1px #3F1237;
 }
 .cd-scrolling-bg p{
     padding: 1em 0;
@@ -932,9 +954,13 @@ h3 {
     line-height: 2;
     font-weight: 300;
   }
+  .cd-main-nav a {
+      background-color: rgba(63, 18, 55, 0.8);
+    }
+
     }
     /* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
  
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -973,9 +999,17 @@ h3 {
   width: 90%;
   max-width: 1170px;
   text-align: center;
-  
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 40px;
   /*color: white;*/
+}
+.home-dubai {
+  font-size: 30px;
+}
+.home-sub {
+  font-size: 18px;
+  padding: 10px; 
+  border-radius: 4px;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/cd-background-1.jpg");
@@ -989,17 +1023,8 @@ h3 {
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../images/cd-background-4.jpg");
 }
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 36px;
-}
 .cd-fixed-bg {
   background-attachment: fixed;
-}
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-  font-size: 58px;
-  font-weight: 300;
-  color:#3F1237;
-  text-shadow: 1px 1px #3F1237;
 }
 .cd-scrolling-bg p{
     padding: 1em 0;
@@ -1008,4 +1033,8 @@ h3 {
     line-height: 2;
     font-weight: 300;
   }
+  .cd-main-nav a {
+      background-color: rgba(63, 18, 55, 0.8);
     }
+  }
+  }
