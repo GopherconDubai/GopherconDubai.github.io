@@ -231,7 +231,7 @@ Main components
   border-bottom:2px solid #bcbcbc;
   color: #3F1237;
   padding:1.22em;
-  width:100%;
+  width:300px;
   margin:auto auto;
 }
 .sponsors_image {
@@ -741,6 +741,7 @@ h3 {
    /* font-size: 1.25rem;*/
     line-height: 2;
     font-weight: 300;
+    text-align: justify;
   }
 .footer-nav ul li {
   padding-left: 5px;
@@ -901,6 +902,7 @@ h3 {
     padding: 1em 0;
     line-height: 2;
     font-weight: 300;
+    text-align: justify;
   }
 
    }
@@ -978,6 +980,7 @@ h3 {
     /*font-size: 1.25rem;*/
     line-height: 2;
     font-weight: 300;
+    text-align: justify;
   }
   .cd-main-nav a {
       background-color: rgba(63, 18, 55, 0.8);
@@ -1057,6 +1060,7 @@ h3 {
     /*font-size: 1.25rem;*/
     line-height: 2;
     font-weight: 300;
+    text-align: justify;
   }
   .cd-main-nav a {
       background-color: rgba(63, 18, 55, 0.8);
