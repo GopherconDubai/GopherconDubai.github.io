@@ -35,6 +35,7 @@ strong {
     font-weight: bold;
 }
 
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -55,11 +56,6 @@ Modules - reusable parts of our design
 .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  background-image: url('../images/go-logo-uae.png');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-color: transparent;
-  opacity:0.8;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -81,7 +77,7 @@ Main components
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 100px;
   /*background: rgba(255, 255, 255, 0.95);*/
   background: rgba(63, 18, 55, 0.8);
   /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
@@ -96,12 +92,6 @@ Main components
   float: left;
   margin: auto auto auto 4%;
 }
-@media only screen and (min-width: 768px) {
-  .cd-header {
-    height: 70px;
-  }
-  
-}
 
 .cd-main-nav {
   float: right;
@@ -112,9 +102,11 @@ Main components
   background-size: 44px 44px;
   cursor: pointer;
 }
+ .no-touch .cd-main-nav a:hover {
+    color: #373F12;
+    }
 .cd-main-nav ul {
   position: absolute;
-  top: 0;
   left: 0;
   width: 100%;
   -webkit-transform: translateY(-100%);
@@ -129,6 +121,7 @@ Main components
   -ms-transform: translateY(50px);
   -o-transform: translateY(50px);
   transform: translateY(50px);
+  margin-top: 50px;
 }
 .cd-main-nav a {
   display: block;
@@ -137,190 +130,16 @@ Main components
   padding-left: 5%;
   background: #2f292a;
   border-top: 1px solid #453c3d;
-  color: #fff;
+  color : #fff;
+  text-shadow: 1px 1px #3F1237;
 }
-@media only screen and (min-width: 768px) {
-  .cd-main-nav {
-    width: auto;
-    height: auto;
-    background: none;
-    cursor: auto;
-  }
-  .cd-main-nav ul {
-    position: static;
-    width: auto;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    line-height: 70px;
-  }
-  .cd-main-nav ul.is-visible {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-  }
-  .cd-main-nav li {
-    display: inline-block;
-    margin-left: 1em;
-  }
-  .cd-main-nav a {
-    font-family: 'Open Sans';
-    display: inline-block;
-    height: auto;
-    line-height: normal;
-    background: transparent;
-    padding: .6em 1em;
-    border-top: none;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    font-size: 0.975rem;
-  }
-   .no-touch .cd-main-nav a:hover {
-    color: #e1b6f9;
-    }
-  /*glow effect*/
-  .butn {
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  height: 30px;
-  width: 78px;
-/*  padding: .6em 1em;
-*/  margin-top: 4px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  line-height: 2px;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  font-size: 0.975rem;border-top: none;
-  }
-  .sm {
-  width: 100%;
-  }
-  .ghost {
-/*  margin-bottom: 8px;
-*/  text-align: center;
-  background-color: transparent;
-  color: #FFF;
-  border: 1px solid white;
-  
-  transition: .2s ease;
-  }
-  &:hover {
-    background-color: #8b0000;
-    color:  #8b0000;
-    
-    transition: .2s ease;
-  }
-  button.butn.sm.ghost:hover {
-   color: #C2EAEB; border:1px solid #C2EAEB;
- }
-  
-
-/*.button {
-    display: inline-block;
-    padding: 1em;
-    background-color: #3f1237;
-    text-decoration: none;
-    color: white;
-  }
-  .hvr-glow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  }
-.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  }*/
-
-
-
-.cd-main-content {
-  /* you need to assign a min-height to the main content so that the children can inherit it*/
-  height: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-.cd-fixed-bg {
-  position: relative;
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 1;
-}
- .cd-fixed-bg h1, .cd-fixed-bg h2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 90%;
-  max-width: 1170px;
-  text-align: center;
-  font-size: 30px;
-  font-size: 1.875rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  /*color: white;*/
-}
-.cd-fixed-bg.cd-bg-1 {
-  background-image: url("../images/cd-background-1.jpg");
-}
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url("../images/cd-background-2.jpg");
-}
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("../images/cd-background-3.jpg");
-}
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url("../images/cd-background-4.jpg");
-}
-@media only screen and (min-width: 768px) {
-  .cd-fixed-bg h1, .cd-fixed-bg h2 {
-    font-size: 36px;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-fixed-bg {
-    background-attachment: fixed;
-  }
-  .cd-fixed-bg h1, .cd-fixed-bg h2 {
-    font-size: 58px;
-    font-weight: 300;
-    color:#3F1237;
-    text-shadow: 1px 1px #3F1237;
-  }
-}
-
 .cd-scrolling-bg {
   position: relative;
-  min-height: 100%;
+/*  min-height: 100%;*/
   padding: 1em 0;
-  /*line-height: 1.6;*/
-  /*box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);*/
   z-index: 2;
-}.cd-scrolling-bg h2 {
+}
+.cd-scrolling-bg h2 {
   font-family:'Open Sans';
   text-align: left;
 }
@@ -336,15 +155,6 @@ Main components
 .cd-scrolling-bg.cd-color-3 {
   background-color: #f0f1e7;
   color: #3d3d3d;
-}
-@media only screen and (min-width: 768px) {
-  .cd-scrolling-bg p{
-    padding: 1em 0;
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 2;
-    font-weight: 300;
-  }
 }
 .portfolio-item {
     margin-bottom: 25px;
@@ -421,7 +231,7 @@ Main components
   border-bottom:2px solid #bcbcbc;
   color: #3F1237;
   padding:1.22em;
-  width:35%;
+  width:300px;
   margin:auto auto;
 }
 .sponsors_image {
@@ -432,18 +242,11 @@ Main components
 #space {
   padding-top:2em;
 }
-/*#wave{
-  margin-bottom: 0px;
-}*/
-/*.line{
-  padding-top: 0px;
-  margin-top: 0px;
-}*/
 p.home-paragraph {
   font-size: 18px;
   line-height: 1.8;
   margin-top: -15px;
-
+  text-align: justify;
 }
 p a {
     color: #3F1237;
@@ -474,6 +277,34 @@ p a:focus {
     transform: translateX(-50%) translateY(-50%);
     width: 90%;
     z-index: 2;
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color:#3F1237;
+  text-shadow: 1px 1px #3F1237;
+}
+h2 {
+  text-align: center;
+}
+.dubai {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 50px;
+  font-family: 'Play', sans-serif;
+}
+.home-dubai {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+}
+.home-sub {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(63, 18, 55, 0.3);
+  padding:20px; 
+  border-radius: 4px;
 }
 h3 {
   font-size: 28px;
@@ -538,13 +369,9 @@ h3 {
 .footer-nav {
   margin-top: 10px;
   margin-left: 2px;
-  
-
 }
 .footer-nav ul li {
-  display: inline;
-/*  padding-left: 5px;
-*/  padding-right: 5px;  
+  display: inline;  
 }
 .footer-nav ul li a {
   color:#b6a4c1;
@@ -557,3 +384,686 @@ h3 {
   text-align: left;
   padding-right: 5px;
 }
+.speaker-twit {
+    color: #4099FF;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+}
+.speaker-twit:hover {
+  color: rgba(64, 153, 255, 0.43);
+} 
+.more {
+  background-color: rgb(63, 18, 55);
+  color: white;
+  border: none;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.more:focus {
+  color: white
+}
+.more:hover {
+  background-color: rgba(63, 18, 55, 0.55);
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1201px) {
+
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-image: url('../images/go-logo-uae.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.logo {
+  display: none;
+}
+  .cd-main-nav {
+    width: auto;
+    height: auto;
+    background: none;
+    cursor: auto;
+  }
+  .cd-main-nav ul {
+    position: static;
+    width: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    line-height: 100px;
+  }
+  .cd-main-nav ul.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .cd-main-nav li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .cd-main-nav a {
+    font-family: 'Open Sans';
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    background: transparent;
+    padding: .6em 1em;
+    border-top: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 0.975rem;
+  }
+ /*  .no-touch .cd-main-nav a:hover {
+    color: #12373F;
+    }*/
+  /*glow effect*/
+  .butn {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  height: 30px;
+  width: 78px;
+/*  padding: .6em 1em;
+*/  margin-top: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  line-height: 2px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 0.975rem;border-top: none;
+  }
+  .sm {
+  width: 100%;
+  }
+  .ghost {
+/*  margin-bottom: 8px;
+*/  text-align: center;
+  background-color: transparent;
+  color: #FFF;
+  border: 1px solid white;
+  
+  transition: .2s ease;
+  }
+  &:hover {
+    background-color: #8b0000;
+    color:  #8b0000;
+    
+    transition: .2s ease;
+  }
+  button.butn.sm.ghost:hover {
+   color: #C2EAEB; border:1px solid #C2EAEB;
+ }
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 80px;
+  /*color: white;*/
+}
+.home-dubai {
+  font-size: 60px;
+}
+.home-sub {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(63, 18, 55, 0.3);
+  padding: 15px; 
+  border-radius: 4px;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    /*font-size: 20px;
+    font-size: 1.25rem;*/
+    line-height: 2;
+    font-weight: 300;
+  }
+.footer-nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;  
+}
+
+    }
+ /* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) and (max-width : 1200px) {
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-image: url('../images/go-logo-uae.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.logo {
+  display: none;
+}
+.cd-main-nav {
+    width: auto;
+    height: auto;
+    background: none;
+    cursor: auto;
+  }
+  .cd-main-nav ul {
+    position: static;
+    width: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    line-height: 100px;
+  }
+  .cd-main-nav ul.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .cd-main-nav li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .cd-main-nav a {
+    font-family: 'Open Sans';
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    background: transparent;
+    padding: 1em 0.6em;
+    border-top: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 0.975rem;
+  }
+ /*  .no-touch .cd-main-nav a:hover {
+    color: #e1b6f9;
+    }*/
+  /*glow effect*/
+  .butn {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  height: 30px;
+  width: 78px;
+/*  padding: .6em 1em;
+*/  margin-top: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  line-height: 2px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 0.975rem;border-top: none;
+  }
+  .sm {
+  width: 100%;
+  }
+  .ghost {
+/*  margin-bottom: 8px;
+*/  text-align: center;
+  background-color: transparent;
+  color: #FFF;
+  border: 1px solid white;
+  
+  transition: .2s ease;
+  }
+  &:hover {
+    background-color: #8b0000;
+    color:  #8b0000;
+    
+    transition: .2s ease;
+  }
+  button.butn.sm.ghost:hover {
+   color: #C2EAEB; border:1px solid #C2EAEB;
+ }
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  /*color: white;*/
+}
+.home-dubai {
+  font-size: 40px;
+}
+.home-sub {
+  font-size: 20px;
+  padding: 15px; 
+  border-radius: 4px;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    /*font-size: 20px;*/
+   /* font-size: 1.25rem;*/
+    line-height: 2;
+    font-weight: 300;
+    text-align: justify;
+  }
+.footer-nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;  
+}
+
+  }
+ /* Small Devices, Tablets */
+@media only screen and (min-width : 781px) and (max-width : 992px) {
+
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
+}
+  .cd-main-nav {
+    width: auto;
+    height: auto;
+    background: none;
+    cursor: auto;
+  }
+  .cd-main-nav ul {
+    position: static;
+    width: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    line-height: 100px;
+  }
+  .cd-main-nav ul.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .cd-main-nav li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .cd-main-nav a {
+    font-family: 'Open Sans';
+    display: inline-block;
+    height: 80px;
+    line-height: normal;
+    background: transparent;
+    padding-top: 2em;
+    border-top: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 0.975rem;
+  }
+/*   .no-touch .cd-main-nav a:hover {
+    color: #e1b6f9;
+    }*/
+  /*glow effect*/
+  .butn {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  height: 30px;
+  width: 78px;
+/*  padding: .6em 1em;
+*/  margin-top: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  line-height: 2px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 0.975rem;border-top: none;
+  }
+  .sm {
+  width: 100%;
+  }
+  .ghost {
+/*  margin-bottom: 8px;
+*/  text-align: center;
+  background-color: transparent;
+  color: #FFF;
+  border: 1px solid white;
+  
+  transition: .2s ease;
+  }
+  &:hover {
+    background-color: #8b0000;
+    color:  #8b0000;
+    
+    transition: .2s ease;
+  }
+  button.butn.sm.ghost:hover {
+   color: #C2EAEB; border:1px solid #C2EAEB;
+ }
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+  /*color: white;*/
+}
+.home-dubai {
+  font-size: 32px;
+}
+.home-sub {
+  font-size: 20px;
+  padding: 12px; 
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    line-height: 2;
+    font-weight: 300;
+    text-align: justify;
+  }
+
+   }
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 481px) and (max-width : 780px) {
+
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 45px;
+  /*color: white;*/
+}
+.home-dubai {
+  font-size: 35px;
+}
+.home-sub {
+  font-size: 20px;
+  padding: 12px; 
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    /*font-size: 20px;*/
+    /*font-size: 1.25rem;*/
+    line-height: 2;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .cd-main-nav a {
+      background-color: rgba(63, 18, 55, 0.8);
+    }
+
+    }
+    /* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+ 
+  .cd-container_mascot {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  background-color: transparent;
+  opacity:0.8;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+ .cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+  /*color: white;*/
+}
+.home-dubai {
+  font-size: 30px;
+}
+.home-sub {
+  font-size: 18px;
+  padding: 10px; 
+  border-radius: 4px;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/cd-background-1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/cd-background-2.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/cd-background-3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/cd-background-4.jpg");
+}
+.cd-fixed-bg {
+  background-attachment: fixed;
+}
+.cd-scrolling-bg p{
+    padding: 1em 0;
+    /*font-size: 20px;*/
+    /*font-size: 1.25rem;*/
+    line-height: 2;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .cd-main-nav a {
+      background-color: rgba(63, 18, 55, 0.8);
+    }
+  }
+  }
