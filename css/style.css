@@ -314,6 +314,33 @@ h3 {
 .feeds {
   padding-top: 50px;
 }
+/*VENUE-INNER-PAGE*/
+.inner-page-venue {
+    font-size: 18px;
+    line-height: 2;
+    background-color: #fff;
+    padding: 20px 30px;
+    position: absolute;
+    left: 50%;
+    top:85%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    z-index: 2;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 28px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color:#3F1237;
+}
 /*Footer*/
 .footer {
   background: #3F1237;
@@ -1068,3 +1095,86 @@ h3 {
     }
   }
   }
+/*VENUE*/
+
+.venue{
+  text-align: justify;
+  font-size: 16px;
+}
+.sponsors_v
+{
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+}
+.sponsors_img{
+  padding-right: 70px;
+  float: right;
+  padding-top: 15px;
+}
+#sp1{
+  border-bottom: 1px solid #3F1237;
+  width: 160px;
+  margin: auto;
+  padding-left:10px;
+}
+#sp2{
+  border-bottom: 1px solid #3F1237;
+  width: 170px;
+  margin: auto;
+  padding-left:10px;
+}
+#sp3{
+  border-bottom: 1px solid #3F1237;
+  width: 160px;
+  margin: auto;
+  padding-left:10px;
+}
+#transbox{
+/*  margin: 30px;
+*/background-color: #EEECF9;
+  border: 1px solid #FFF;
+  opacity:0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  color: #3F1237;
+}
+.address{
+  text-align: justify;
+  font-size: 16px;
+}
+/*SCHEDULE*/
+#schedule{
+  text-align: justify;
+  font-size: 16px;
+}
+
+#schedule ol {
+  display: block;
+  list-style-type: circle;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+.inner-page-schedule {
+    font-size: 18px;
+    line-height: 2;
+    background-color: #fff;
+    padding: 20px 30px;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    z-index: 2;
+}
