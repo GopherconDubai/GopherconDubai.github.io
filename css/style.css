@@ -1141,6 +1141,17 @@ h3 {
   padding-right: 1px;
   color: #3F1237;
 }
+#transbox_d{
+/*  margin: 30px;
+*/background-color: #EEECF9;
+  border: 1px solid #FFF;
+  opacity:0.8;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  color: #3F1237;
+}
 .address{
   text-align: justify;
   font-size: 16px;
@@ -1150,8 +1161,11 @@ h3 {
   text-align: justify;
   font-size: 16px;
 }
+#transbox_schedule{
+  margin-top: 100px;
+}
 
-#schedule ol {
+/*#schedule ol {
   display: block;
   list-style-type: circle;
   -webkit-margin-before: 1em;
@@ -1159,7 +1173,7 @@ h3 {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
-}
+}*/
 .inner-page-schedule {
     font-size: 18px;
     line-height: 2;
@@ -1167,7 +1181,7 @@ h3 {
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top: 120%;
+    top: 80%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
