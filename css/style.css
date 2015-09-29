@@ -267,7 +267,7 @@ p a:focus {
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top: 105%;
+    top: 115%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -290,7 +290,7 @@ h2 {
 .dubai {
   font-weight: bold;
   font-size: 20px;
-  margin-right: 50px;
+  margin-right: 12px;
   font-family: 'Play', sans-serif;
 }
 .home-dubai {
@@ -322,7 +322,7 @@ h3 {
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top:85%;
+    top: 75%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -533,7 +533,7 @@ h3 {
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 75%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -543,7 +543,7 @@ h3 {
     transform: translateX(-50%) translateY(-50%);
     width: 90%;
     z-index: 2;
-}
+  }
 
 
 /* Large Devices, Wide Screens */
