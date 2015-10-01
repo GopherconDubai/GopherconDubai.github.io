@@ -267,7 +267,7 @@ p a:focus {
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top: 115%;
+    top: 130%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -313,6 +313,24 @@ h3 {
 }
 .feeds {
   padding-top: 50px;
+}
+.inner-page-contact {
+    font-size: 18px;
+    line-height: 2;
+    background-color: #fff;
+    padding: 20px 30px;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    z-index: 2;
 }
 /*VENUE-INNER-PAGE*/
 .inner-page-venue {
