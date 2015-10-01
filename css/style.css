@@ -267,7 +267,7 @@ p a:focus {
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top: 115%;
+    top: 130%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
