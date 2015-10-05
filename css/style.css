@@ -574,7 +574,6 @@ h3 {
   background-repeat: no-repeat;
   background-position: right center;
   background-color: transparent;
-  opacity:0.8;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -742,7 +741,6 @@ h3 {
   background-repeat: no-repeat;
   background-position: right center;
   background-color: transparent;
-  opacity:0.8;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -906,7 +904,6 @@ h3 {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   background-color: transparent;
-  opacity:0.8;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -1066,7 +1063,6 @@ h3 {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   background-color: transparent;
-  opacity:0.8;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -1151,7 +1147,6 @@ h3 {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   background-color: transparent;
-  opacity:0.8;
   max-width: 80%;
   margin: 0 auto;
 }
