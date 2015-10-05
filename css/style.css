@@ -1133,6 +1133,7 @@ h3 {
   }
   .cd-main-nav a {
       background-color: rgba(63, 18, 55, 0.8);
+      padding-left: 5%;
     }
     .footer-nav ul li {
   padding-right: 10px;   
@@ -1216,6 +1217,7 @@ h3 {
   }
   .cd-main-nav a {
       background-color: rgba(63, 18, 55, 0.8);
+      padding-left: 5%;
     }
   .footer-nav ul li {
   padding-right: 10px;   
