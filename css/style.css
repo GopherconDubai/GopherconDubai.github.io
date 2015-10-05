@@ -302,7 +302,7 @@ h2 {
   font-size: 25px;
   font-weight: bolder;
   color: white;
-  background-color: rgba(63, 18, 55, 0.3);
+  background-color: rgba(63, 18, 55, 0.6);
   padding:20px; 
   border-radius: 4px;
 }
@@ -702,7 +702,7 @@ h3 {
   font-size: 25px;
   font-weight: bolder;
   color: white;
-  background-color: rgba(63, 18, 55, 0.3);
+  background-color: rgba(63, 18, 55, 0.6);
   padding: 15px; 
   border-radius: 4px;
 }
