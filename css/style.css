@@ -127,7 +127,7 @@ Main components
   display: block;
   height: 50px;
   line-height: 50px;
-  padding-left: 5%;
+ /* padding-left: 5%;*/
   background: #2f292a;
   border-top: 1px solid #453c3d;
   color : #fff;
@@ -898,7 +898,7 @@ h3 {
 
   }
  /* Small Devices, Tablets */
-@media only screen and (min-width : 781px) and (max-width : 992px) {
+@media only screen and (min-width : 769px) and (max-width : 992px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
@@ -1057,7 +1057,7 @@ h3 {
 
    }
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 481px) and (max-width : 780px) {
+@media only screen and (min-width : 481px) and (max-width : 768px) {
 
   .cd-container_mascot {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
