@@ -260,24 +260,6 @@ p a:focus {
     text-decoration: none;
     color: rgba(63, 18, 55, 0.8);
 }
-.inner-page {
-    font-size: 18px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 130%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-}
 .cd-fixed-bg h1, .cd-fixed-bg h2 {
   font-size: 40px;
   font-weight: 300;
@@ -471,17 +453,6 @@ h3 {
   text-align: justify;
   font-size: 16px;
 }
-.sponsors_v
-{
-  font-size: 14px;
-  text-align: center;
-  padding-top: 15px;
-}
-.sponsors_img{
-  padding-right: 70px;
-  float: right;
-  padding-top: 15px;
-}
 #sp1{
   border-bottom: 1px solid #3F1237;
   width: 160px;
@@ -500,39 +471,22 @@ h3 {
   margin: auto;
   padding-left:10px;
 }
-#transbox{
+.transbox{
 /*  margin: 30px;
 */background-color: #EEECF9;
   border: 1px solid #FFF;
   opacity:0.8;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
   color: #3F1237;
-}
-#transbox_d{
-/*  margin: 30px;
-*/background-color: #EEECF9;
-  border: 1px solid #FFF;
-  opacity:0.8;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 1px;
-  padding-right: 1px;
-  color: #3F1237;
-}
-.address{
-  text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
+  text-align: center;
 }
 /*SCHEDULE*/
 #schedule{
   text-align: justify;
   font-size: 16px;
-}
-#transbox_schedule{
-  margin-top: 100px;
 }
 
 /*#schedule ol {
@@ -544,14 +498,14 @@ h3 {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
 }*/
-.inner-page-schedule {
-    font-size: 18px;
+.inner-page {
+    font-size: 16px;
     line-height: 2;
     background-color: #fff;
     padding: 20px 30px;
     position: absolute;
     left: 50%;
-    top: 75%;
+    top: 57%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
