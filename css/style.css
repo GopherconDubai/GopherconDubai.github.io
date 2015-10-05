@@ -103,7 +103,7 @@ Main components
   cursor: pointer;
 }
  .no-touch .cd-main-nav a:hover {
-    color: #373F12;
+    color: #b6a4c1;
     }
 .cd-main-nav ul {
   position: absolute;
@@ -425,7 +425,7 @@ h3 {
   font-size:15px;
 }
 .footer-nav ul li a:hover {
-  color: #373F12;
+  color: #ffffff;
 }
 .footxt{
   margin-top: 10px;
