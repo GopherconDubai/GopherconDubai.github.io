@@ -484,6 +484,21 @@ h3 {
 #contact-home {
   text-align: center;
 }
+.social-icon {
+  opacity: 0.9;
+}
+.social-icon:hover {
+       filter: brightness(0.5);
+      -webkit-filter: brightness(0.5);
+      -moz-filter: brightness(0.5);
+      -o-filter: brightness(0.5);
+      -ms-filter: brightness(0.5);
+}
+.register {
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
@@ -600,7 +615,7 @@ h3 {
  .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -651,60 +666,6 @@ h3 {
 .footer-nav ul li {
   padding-right: 10px;  
 }
-.inner-page-schedule {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 58%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-.inner-page-venue {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 62%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-  .inner-page-contact {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 58%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
 
 #schedule-2, #schedule-1 {
   display: none;
@@ -831,7 +792,7 @@ h3 {
  .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -880,60 +841,7 @@ h3 {
 .footer-nav ul li {
     padding-right: 10px;   
 }
-.inner-page-schedule {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-.inner-page-venue {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 75%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-  .inner-page-contact {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
+
 
 #schedule-2 {
   display: none;
@@ -1055,7 +963,7 @@ h3 {
  .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1103,60 +1011,7 @@ h3 {
   .footer-nav ul li {
     padding-right: 10px; 
 }
-.inner-page-schedule {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-.inner-page-venue {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-  .inner-page-contact {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
+
 
 #schedule-2 {
   display: none;
@@ -1197,7 +1052,7 @@ h3 {
  .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1252,60 +1107,7 @@ h3 {
   padding-right: 10px;  
 
 }
-.inner-page-schedule {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 105%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-.inner-page-venue {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 113%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-  .inner-page-contact {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 85%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
+
   #transbox_schedule {
   margin-top: 100px;
 }
@@ -1353,7 +1155,7 @@ h3 {
  .cd-fixed-bg h1, .cd-fixed-bg h2 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 60%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1412,60 +1214,7 @@ h3 {
 .venue {
   margin-top: 30px;
 }
-.inner-page-schedule {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-/*    position: absolute;
-    right: 50px;
-    top: 900px;*/
-/*    bottom: auto;
-    right: auto;*/
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-.inner-page-venue {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 900px;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
-  .inner-page-contact {
-    font-size: 16px;
-    line-height: 2;
-    background-color: #fff;
-    padding: 20px 30px;
-    position: absolute;
-    left: 50%;
-    top: 900px;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    z-index: 2;
-  }
+
   #contact-home {
     font-size: 12px;
   }
