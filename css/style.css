@@ -481,7 +481,9 @@ h3 {
     padding: 20px 30px;
     margin-top: 50px;
 }
-
+#contact-home {
+  text-align: center;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1201px) {
@@ -1464,6 +1466,9 @@ h3 {
     width: 90%;
     z-index: 2;
   }
+  #contact-home {
+    font-size: 12px;
+  }
 #contact-1 {
   display: none;
   }
@@ -1474,6 +1479,9 @@ h3 {
 
 #about {
   padding-bottom: 80px;
+}
+#contact {
+  padding-top: 80px;
 }
 
 
