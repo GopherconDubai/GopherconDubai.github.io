@@ -78,8 +78,8 @@ Main components
   left: 0;
   width: 100%;
   height: 78px;
-  background: rgba(246, 176, 20, 0.9);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  /*background: rgba(246, 176, 20, 0.9);*/
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
   z-index: 2;
 }
 .cd-header:after {
@@ -149,7 +149,7 @@ Main components
   /*border-top: 1px solid #453c3d;*/
   border-top:1px solid rgba(255, 255, 255, 0.25);
   color : #fff;
-  text-shadow: 1px 1px #F3AD23;
+  /*text-shadow: 1px 1px #F3AD23;*/
 }
 .cd-scrolling-bg {
   position: relative;
@@ -524,7 +524,7 @@ h3 {
 }
 .header-h2 {
   font-size: 18px !important;
-  text-shadow: 1px 1px #F3AD23;
+/*  text-shadow: 1px 1px #F3AD23;*/
   font-weight: bolder;
 }
 
