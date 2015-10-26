@@ -490,6 +490,15 @@ h3 {
 #contact-home {
   text-align: center;
 }
+.contact h2 {
+  color: #fff;
+}
+.contact {
+  color: rgba(241,241,241,0.6);
+}
+.contact a{
+  color: #495E7D;
+}
 .social-icon {
   opacity: 0.9;
 }
@@ -1186,7 +1195,7 @@ h3 {
     color: rgba(241,241,241,0.6);
   }
   .cd-main-nav a {
-      background-color: rgba(246, 176, 20, 0.8);
+      background-color: rgba(27, 37, 108, 0.8);
       padding-left: 5%;
     }
     .footer-nav ul li {
@@ -1350,21 +1359,9 @@ h3 {
 .panel {
   border: none !important;
 }
-/*.gopher-home {
-  position: absolute;
-  left: 40%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  font-size: 80px;
-  /*color: white;*/
-  width:600px;
-  height:450px;
-}*/
+.juicer-feed.image-grid li.feed-item.words .j-text, .juicer-feed.slider li.feed-item.words .j-text, .juicer-feed.hip li.feed-item.words .j-text {
+  background-color: #495E7D !important;
+}
+.juicer-feed h1.referral {
+    display: none !important;
+}
