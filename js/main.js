@@ -14,6 +14,8 @@ jQuery(document).ready(function($){
 			$this.html('Read More');
 		}
 	});
+
+	
 });
 
 
