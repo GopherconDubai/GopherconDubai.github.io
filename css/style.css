@@ -414,22 +414,6 @@ h3 {
 .speaker-twit:hover {
   color: rgba(64, 153, 255, 0.43);
 } 
-.more {
-  background-color: rgb(224, 161, 21);
-  color: #FFFFFF;
-  border: none;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-.more:focus {
-  color: white
-}
-.more:hover {
-  border: 2px inset rgb(224, 161, 21);
-  background-color: #1D1E1F;
-  color:#fff;
-}
 .footer-logos {
   margin-bottom: 30px;
 }
@@ -1276,6 +1260,9 @@ h3 {
 }
 .panel-body {
   background-color: #1D1E1F !important;
+}
+.panel {
+  border: none !important;
 }
 .gopher-home {
   position: absolute;
