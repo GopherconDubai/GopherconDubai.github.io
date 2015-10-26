@@ -666,8 +666,6 @@ h3 {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   font-size: 80px;
   /*color: white;*/
-  width:550px;
-  height:500px;
 }
 .home-dubai {
   font-size: 60px;
@@ -848,7 +846,7 @@ h3 {
 }
 .gopher-home {
   position: absolute;
-  left: 40%;
+  left: 35%;
   top: 50%;
   bottom: auto;
   right: auto;
@@ -861,8 +859,8 @@ h3 {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   font-size: 80px;
   /*color: white;*/
-  width:500px;
-  height:450px;
+  width: 450px;
+  height: 333px;
 }
 .home-dubai {
   font-size: 40px;
@@ -1037,7 +1035,7 @@ h3 {
 }
 .gopher-home {
   position: absolute;
-  left: 40%;
+  left: 30%;
   top: 50%;
   bottom: auto;
   right: auto;
@@ -1050,8 +1048,8 @@ h3 {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   font-size: 80px;
   /*color: white;*/
-  width:450px;
-  height:400px;
+  width:400px;
+  height:296px;
 }
 .home-dubai {
   font-size: 32px;
@@ -1145,8 +1143,8 @@ h3 {
 }
 .gopher-home {
   position: absolute;
-  left: 57%;
-  top: 35%;
+  left: 50%;
+  top: 40%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1159,7 +1157,7 @@ h3 {
   font-size: 80px;
   /*color: white;*/
   width:350px;
-  height:300px;
+  height:259px;
 }
 .home-dubai {
   font-size: 35px;
@@ -1328,8 +1326,8 @@ h3 {
 }
 .gopher-home {
   position: absolute;
-  left: 60%;
-  top: 30%;
+  left: 50%;
+  top: 40%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1341,8 +1339,8 @@ h3 {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   font-size: 80px;
   /*color: white;*/
-  width:250px;
-  height:200px;
+  width:300px;
+  height:222px;
 }
 }
 
