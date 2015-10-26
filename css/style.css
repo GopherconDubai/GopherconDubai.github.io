@@ -490,6 +490,15 @@ h3 {
 #contact-home {
   text-align: center;
 }
+.contact h2 {
+  color: #fff;
+}
+.contact {
+  color: rgba(241,241,241,0.6);
+}
+.contact a{
+  color: #495E7D;
+}
 .social-icon {
   opacity: 0.9;
 }
