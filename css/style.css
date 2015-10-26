@@ -1350,21 +1350,6 @@ h3 {
 .panel {
   border: none !important;
 }
-/*.gopher-home {
-  position: absolute;
-  left: 40%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  font-size: 80px;
-  /*color: white;*/
-  width:600px;
-  height:450px;
-}*/
+.juicer-feed.image-grid li.feed-item.words .j-text, .juicer-feed.slider li.feed-item.words .j-text, .juicer-feed.hip li.feed-item.words .j-text {
+  background-color: #495E7D !important;
+}
