@@ -1353,3 +1353,6 @@ h3 {
 .juicer-feed.image-grid li.feed-item.words .j-text, .juicer-feed.slider li.feed-item.words .j-text, .juicer-feed.hip li.feed-item.words .j-text {
   background-color: #495E7D !important;
 }
+.juicer-feed h1.referral {
+    display: none !important;
+}
