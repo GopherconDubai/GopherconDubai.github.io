@@ -905,9 +905,6 @@ h3 {
 #venue-2 {
   display: none;
 }
-#contact-2, #contact-1 {
-  display: none;
-}
 
   }
  /* Small Devices, Tablets */
@@ -1093,9 +1090,7 @@ h3 {
 #venue-2 {
   display: none;
 }
-#contact-2, #contact-1 {
-  display: none;
-}
+
 
    }
 /* Extra Small Devices, Phones */ 
@@ -1213,9 +1208,7 @@ h3 {
 #venue-2 {
   display: none;
 }
-#contact-2 {
-  display: none;
-}
+
 .cd-main-nav ul.is-visible {
   margin-top: 28px;
 }
@@ -1315,9 +1308,7 @@ h3 {
   #contact-home {
     font-size: 12px;
   }
-#contact-1 {
-  display: none;
-  }
+
 /*#inner-page-2 {
   display: none;
   }*/
@@ -1348,9 +1339,7 @@ h3 {
   padding-bottom: 80px;
   background-color: #495e7d;
 }
-#contact {
-  padding-top: 80px;
-}
+
 .panel-body {
   background-color: #495e7d !important;
 }
