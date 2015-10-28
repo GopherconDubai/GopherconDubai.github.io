@@ -247,7 +247,7 @@ Main components
   text-align: justify;
 }
 .spo{
-  border-bottom:2px solid #884B26;
+  border-bottom:2px solid #5D4023;
   color: #3F1237;
   padding:1.22em;
   width:300px;
@@ -272,7 +272,7 @@ p a {
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     font-weight: bold;
-    color:  #884B26;
+    color:  #5D4023;
 }
 p a:hover,
 p a:focus {
@@ -411,7 +411,7 @@ h3 {
     text-align: center;
 }
 .speaker-twit:hover {
-  color: #884B26;
+  color: #5D4023;
 } 
 .footer-logos {
   margin-bottom: 30px;
@@ -1216,7 +1216,7 @@ h3 {
     color: rgba(241,241,241,0.6);
   }
   .cd-main-nav a {
-      background-color: rgba(27, 37, 108, 0.8);
+      background-color: rgba(136, 75, 38, 0.6);
       padding-left: 5%;
     }
     .footer-nav ul li {
@@ -1320,7 +1320,7 @@ h3 {
     text-align: justify;
   }
   .cd-main-nav a {
-      background-color: rgba(27, 37, 108, 0.8);
+      background-color: rgba(136, 75, 38, 0.6);
       padding-left: 5%;
     }
   .footer-nav ul li {
