@@ -13,9 +13,5 @@ jQuery(document).ready(function($){
 		} else {
 			$this.html('Read More');
 		}
-	});
-
-	
+	});	
 });
-
-
