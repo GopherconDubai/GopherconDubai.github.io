@@ -160,7 +160,7 @@ Main components
 .cd-scrolling-bg h2 {
   font-family:'Open Sans';
   text-align: left;
-  color: #4b4b4b;
+  color: white;
 }
 
 .cd-scrolling-bg.cd-color-1 {
@@ -247,9 +247,9 @@ Main components
   font-size: 15px;
   text-align: justify;
 }
-.spo{
+h2.spo{
   /*border-bottom:2px solid #5D4023;*/
-  /*color: #3F1237;*/
+  color: #4b4b4b;
   padding:1.22em;
   width:300px;
   margin:auto auto;
@@ -659,6 +659,23 @@ h3 {
   transform: translateX(-50%) translateY(-50%);
   width:300px;
 
+}
+.dates {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 25%;
 }
 .register {
   position: absolute;
