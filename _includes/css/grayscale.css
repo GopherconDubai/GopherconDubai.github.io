@@ -71,6 +71,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    color: #fff;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -89,7 +90,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #ffd73d;
 }
 
 .navbar-custom .nav li.active {
@@ -157,6 +158,23 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.intro .hero-badge{
+  display: block;
+  margin-bottom: 30px;
+}
+
+.intro .register-btn{
+  border: 2px solid #fff;
+  margin: 5px auto;
+  color: white;
+  padding: 10px 15px;
+}
+
+.intro .register-btn:hover{
+  border-color: #ffd73d;
+  color: #ffd73d;
 }
 
 @media(min-width:767px) {
@@ -252,6 +270,11 @@ a:focus {
     padding-top: 100px;
 }
 
+#about {
+  background: #ffd73d;
+  width: 100%;
+  font-size: 12px;
+}
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -272,7 +295,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .download-section {
