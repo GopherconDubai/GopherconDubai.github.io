@@ -1,0 +1,17 @@
+    <!-- About Section -->
+    <section id="speakers" class="container content-section text-left">
+        <div class="row">
+          {% for speaker in site.data.speakers %}
+          <div class="col-lg-4 col-lg-offset-1 speaker">
+            <div class="col-lg-6">
+              <img src="{% if speaker.image %}/img/speakers/{{ speaker.image }}{% else %}http://placehold.it/200x200{% endif %}" class="img-responsive img-circle">
+            </div>
+            <div class="col-lg-6">
+              <div class="speaker-name">{{ speaker.name }}</div>
+              <a class="speaker-social" href="{{ speaker.social_url }}">{{ speaker.social }}</a>
+              <div class="speaker-bio">{{ speaker.bio }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </section>

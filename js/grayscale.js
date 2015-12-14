@@ -47,7 +47,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(25.0688834,55.1388978), // Dubai
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -175,10 +175,30 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(40.6700, -73.9400);
+    var myLatLng = new google.maps.LatLng(25.0688834,55.1388978);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         icon: image
+    });
+    var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Almas Towers</h1>'+
+      '<div id="bodyContent">'+
+      '<span>Almas Conference Center DMCC Free Zone</span>'+
+      '<span>Ground Floor Almas Tower</span>'+
+      '<span>Dubai, UAE</span>'+
+      '</div>'+
+      '</div>';
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+
+    beachMarker.addListener('click', function(){
+      infowindow.open(map, beachMarker);
+    });
+    beachMarker.addListener('load', function(){
+      infowindow.open(map, beachMarker);
     });
 }
