@@ -160,19 +160,20 @@ Main components
 .cd-scrolling-bg h2 {
   font-family:'Open Sans';
   text-align: left;
-  color: #fff;
+  color: #4b4b4b;
 }
 
 .cd-scrolling-bg.cd-color-1 {
-  background-color:#B17E57;
+  background-color:#4b4b4b;
   color: #3d3d3d;
 }
 .cd-scrolling-bg.cd-color-2 {
-  background-color: #B17E57;
+  background-color: #4b4b4b;
   color: #3d3d3d ;
 }
 .cd-scrolling-bg.cd-color-3 {
-  background-color: #B17E57;
+  /*background-color: #4b4b4b;*/
+  background-color: #fff;
   color: #3d3d3d;
 }
 .portfolio-item {
@@ -247,8 +248,8 @@ Main components
   text-align: justify;
 }
 .spo{
-  border-bottom:2px solid #5D4023;
-  color: #3F1237;
+  /*border-bottom:2px solid #5D4023;*/
+  /*color: #3F1237;*/
   padding:1.22em;
   width:300px;
   margin:auto auto;
@@ -262,7 +263,7 @@ Main components
   padding-top:2em;
 }
 p.home-paragraph {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.8;
   margin-top: -15px;
   text-align: justify;
@@ -272,12 +273,12 @@ p a {
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     font-weight: bold;
-    color:  #5D4023;
+    color:  #fff;
 }
 p a:hover,
 p a:focus {
     text-decoration: none;
-    color: #F7D3A2;
+    color: #fcfcfc;
 }
 .cd-fixed-bg h1, .cd-fixed-bg h2 {
   font-size: 40px;
@@ -365,7 +366,7 @@ h3 {
   color: #78828D
 }
 .footer-bottom {
-  background: #884B26;
+  background: #4b4b4b;
   border-top: 1px solid #DDDDDD;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -374,7 +375,7 @@ h3 {
   margin-top: 9px;
   padding-left: 3px;
   color: rgba(241,241,241,0.7);
-  font-size:12px;
+  font-size:14px;
   text-align: justify;
 }
 .footer-nav {
@@ -482,7 +483,7 @@ h3 {
 }
 
 .container-section {
-    background-color: #B17E57;
+    background-color: #4b4b4b;
     padding: 20px 30px;
     margin-top: 50px;
     color: rgba(241,241,241,0.9);
@@ -568,7 +569,7 @@ h3 {
     background: transparent;
     padding: .6em 1em;
     border-top: none;
-    color: #ffffff;
+    /*color: #ffffff;*/
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
@@ -684,7 +685,7 @@ h3 {
   border-radius: 4px;
 }
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url("../images/cd-background-1.jpg");
+  background-image: url("../images/backgrounds/dubai-black.jpg");
 }
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../images/cd-background-2.jpg");
@@ -1374,24 +1375,24 @@ h3 {
 
 #about {
   padding-bottom: 40px;
-  background-color: #B17E57;
+  background-color: #4b4b4b;
 }
 #speakers {
   padding-bottom: 40px;
-  background-color: #B17E57;
+  background-color: #4b4b4b;
 }
 #sponsors {
   padding-bottom: 40px;
-  background-color: #B17E57;
+  background-color: #4b4b4b;
 }
 .panel-body {
-  background-color: #B17E57 !important;
+  background-color: #4b4b4b !important;
 }
 .panel {
   border: none !important;
 }
 .juicer-feed.image-grid li.feed-item.words .j-text, .juicer-feed.slider li.feed-item.words .j-text, .juicer-feed.hip li.feed-item.words .j-text {
-  background-color: #B17E57 !important;
+  background-color: #4b4b4b !important;
 }
 .juicer-feed h1.referral {
     display: none !important;
