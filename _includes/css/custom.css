@@ -371,7 +371,6 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -475,7 +474,11 @@ body {
 }
 
 .block { 
-  display: block;
+    display: block;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .opaque {
@@ -486,12 +489,20 @@ body {
 }
 
 .partner-logo-1 {
-    display: block;
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 50px;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 50px;
 }
 
-.partner-logo-2 {
-    
+#workshop {
+  background: white;
+  color: #898989;
+  padding: 60px 40px 40px;
 }
+
+#workshop h2 {
+  text-decoration: underline;
+}
+
+
