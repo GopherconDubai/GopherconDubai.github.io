@@ -47,7 +47,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(25.0688834,55.1388978), // Dubai
+        center: new google.maps.LatLng(25.068801, 55.141172), // Dubai
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -175,7 +175,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(25.0688834,55.1388978);
+    var myLatLng = new google.maps.LatLng(25.068801, 55.141172);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
