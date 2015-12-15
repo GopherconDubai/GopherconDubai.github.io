@@ -1,24 +1,41 @@
-- name: Aditya
-  social: liufengyun
+- name: Aditya Mukerjee
+  social: "@chimeracoder"
   image: aditya.jpg
-  bio: "In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. There is no staying in any one place; for at one and the same time everything has to be done everywhere. It is much the same with him who endeavors the description of the scene. We must now retrace our way a little. It was mentioned that upon first breaking ground in the whale's back, the blubber-hook was inserted into the original hole there cut by the spades of the mates. But how did so clumsy and weighty a mass as that same hook get fixed in that hole? It was inserted there by my particular friend Queequeg, whose duty it was, as harpooneer, to descend upon the monster's back for the special purpose referred to. But in very many cases, circumstances require that the harpooneer shall remain on the whale till the whole tensing or stripping operation is concluded. The whale, be it observed, lies almost entirely submerged, excepting the immediate parts operated upon. So down there, some ten feet below the level of the deck, the poor harpooneer flounders about, half on the whale and half in the water, as the vast mass revolves like a tread-mill beneath him. On the occasion in question, Queequeg figured in the Highland costume—a shirt and socks—in which to my eyes, at least, he appeared to uncommon advantage; and no one had a better chance to observe him, as will presently be seen."
+  bio: "Aditya is an engineer at Stripe and has been a full-time Go developer since 2012. He is the main developer for gitgo, a pure Go"
 
-- name: Liu Fengyun
-  social: liufengyun
-  bio: "asdasdasd"
+- name: Piyush Verma
+  social: "@meson10"
+  image: piyush.jpg
+  bio: "Piyush Verma is a Platform & Infrastructure Engineer with Datascale.io. He is an ex-KDE developer and codes for Coffee and House music. He likes Multiprocessing, Distributed systems, APIs and automating everything. Previously, he created <a href='http://about.siminars.com/index.html' target='_blank'>Siminars.com</a> and when not coding he can be found running or cycling around the town. He spoke at GopherConIndia 2015."
 
-- name: Liu Fengyun
-  social: liufengyun
-  bio: "asdasdasd"
+- name: William Kennedy
+  social: "@goinggodotnet"
+  image: william.jpg
+  bio: "William Kennedy is a managing partner at Ardan Studios in Miami, FL, a mobile and web app development company. He is also a co-author of the book <a href='http://www.goinactionbook.com/' target='_blank'>Go In Action</a>, the author of the blog <a href='http://www.goinggo.net/' target='_blank'>GoingGo.Net</a> and the organizer for the Go and MongoDB meetups in Miami. Bill is focused on Go education and through his new venture <a href='http://www.ardanstudios.com/' target='_blank'>GoingoGo Training</a>, Bill continues the cause by working with individuals and groups who want to take their Go knowledge and coding skills to the next level. He <a href='https://sourcegraph.com/blog/live/gopherconindia/111541314197' target='_blank'>spoke</a> at GopherConIndia 2016."
 
-- name: Liu Fengyun
-  social: liufengyun
-  bio: "asdasdasd"
+- name: Cory LaNou
+  social: "@corylanou"
+  image: cory.jpg
+  bio: "Cory LaNou is a full stack web developer and entrepreneur with over 17 years of experience. After 11 years of being a successful serial entrepreneur, he has joined the <a href='https://influxdb.com/' target='_blank'>InfluxDB</a> team, working onbuilding an open source time series database, written in Go. He is active in the Go community, leading the <a href='http://www.meetup.com/Denver-Go-Language-User-Group/' target='_blank'>Denver Gophers</a> meetup, as well as mentoring students in his free time. Prior to joining InfluxDB, Cory was with gSchool, Galvanize, SupportLocal, LocalLaunch, Pulsity and Computer Discount Warehouse."
 
-- name: Liu Fengyun
-  social: liufengyun
-  bio: "asdasdasd"
+- name: Matthew Campbell
+  social: "@kanwisher"
+  image: matthew.png
+  bio: "Matthew has been a hacker since he was teething. He specializes in GO, Ruby and Scala. His most notable projects were porting Bloomberg.com to ruby of rails from scratch. Building real time ad platforms in scala at Tapad. Most recently building the largest financial instant messaging server on the planet from scratch in GO with a small team for Thomson Reuters. In his free time he likes to hack arduinos and scuba dive. He recently spoke and runs the <a href='http://www.meetup.com/Bangkok-Gophers-Go-programming-Meetup/' target='_blank'>Go Meetup in Bangkok.</a> Matthew splits his time between New York and Bangkok leading teams in both locations. He <a href='https://sourcegraph.com/blog/live/gopherconindia/111645038222' target='_blank'>spoke</a> at GopherConIndia 2015."
 
-- name: Liu Fengyun
-  social: liufengyun
-  bio: "asdasdasd"
+- name: Sau Sheong Chang
+  social: "@sausheong"
+  image: sau.jpg
+  bio: "Sau Sheong Chang is the Director of Global Consumer Engineering for PayPal, managing teams that deliver consumer-focused products for PayPal.  Previously, he was the Director of HP Labs Singapore,responsible for managing a team of research scientists and engineers focusing on researching and developing cloud computing and Big Data technologies for HP. Before joining HP, he was the Chief Technology Officer for Garena and Director of Engineering for Yahoo! Southeast Asia. Sau Sheong has been doing software development for 20 years, mostly in web application development. He is active in the Ruby and Go developer communities have have contributed to open source projects and spoke at meetups and conferences. Sau Sheong has also published 3 programming-related books, mostly on Ruby and is working on a 4th book titled 'Go Web Programming'."
+
+- name: Kedarnag M S
+  social: "@Kedarnag13"
+  image: kedarnag.jpg
+  bio: "Kedarnag M S is working with Qwinix Technologies, Mysore. By passion, he is a traveller, shutterbug enthusiast, table tennis and a gamer geek. By profession, an observant and spirited tech-buff, who is an ardent believer of the power of - Golang and Ruby on Rails."
+
+- name: Mark Bates
+  social: "@markbates"
+  image: sau.jpg
+  bio: "MarK Bates is the founder and chief architect of the Boston, MA based consulting company, Meta42 Labs. Mark spends his days focusing on new application development and consulting for his clients.   At night he writes books, raises kids, and occasionally he forms a band and 'tries to make it'. Mark is the author of three books, 'Distributed Programming with Ruby' (2009), 'Programming in CoffeeScript' (2012), and 'Conquering the Command Line' (2014). Mark also ran the weekly Golang screencast site, <a href='http://www.metacasts.tv/' target='_blank'>www.metacasts.tv</a> which was acquired by O'Reilly in 2015."
+
+
