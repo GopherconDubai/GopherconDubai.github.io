@@ -292,7 +292,7 @@ a:focus {
   padding: 100px 0px;
   text-align: center;
   background: white;
-  color: black;
+  color: #898989;
 }
 
 .sponsor-card .light {
@@ -473,3 +473,8 @@ body {
 .transparent-border {
     border-color: transparent;
 }
+
+.block { 
+  display: block;
+}
+
