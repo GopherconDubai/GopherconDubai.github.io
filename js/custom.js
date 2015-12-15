@@ -56,7 +56,7 @@ function init() {
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
-        style: [{
+        styles: [{
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
