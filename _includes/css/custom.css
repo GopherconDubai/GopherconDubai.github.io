@@ -371,7 +371,6 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -475,6 +474,19 @@ body {
 }
 
 .block { 
-  display: block;
+    display: block;
 }
 
+.full-width {
+    width: 100%;
+}
+
+#workshop {
+    background: white;
+    color: #898989;
+    padding: 60px 40px 40px;
+}
+
+#workshop h2 {
+    text-decoration: underline;
+}
