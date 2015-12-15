@@ -1,6 +1,6 @@
 # Site settings
 title: "Gophercon Dubai 2016"
-email: "sameer@squarecircletech.com"
+email: "ecosystem@squarecircletech"
 url: "https://gophercon.ae"
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -13,10 +13,12 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/gopherconae
   - title: facebook
-    url:
+    url: https://www.facebook.com/GopherConAE/
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+font-family: Lato, Roboto, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
