@@ -397,6 +397,20 @@ a:focus {
     background-color: {{ site.color.brand }};
 }
 
+.btn-primary {
+    border: 1px solid {{ site.color.brand }};
+    color: white;
+    background-color: {{ site.color.brand }};
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    border: 1px solid {{ site.color.brand }};
+    outline: 0;
+    color: {{ site.color.brand }};
+    background-color: transparent;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
