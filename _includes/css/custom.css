@@ -399,7 +399,7 @@ a:focus {
 
 .btn-primary {
     border: 1px solid {{ site.color.brand }};
-    color: white;
+    color: #4b4b4b;
     background-color: {{ site.color.brand }};
 }
 
