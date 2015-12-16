@@ -57,4 +57,7 @@
   bio: "Aaron lives in the suburbs of Vienna, Austria but is a native of the suburbs of Seattle. In his former life he was a shepherd, a cheesemaker and a sous chef. Now he is freelancing, building native iOS and Android apps and their respective API's. In his spare time, he organizes a range of user groups in Vienna and <a target='_blank' href='http://rossconf.io'>rossconf.io</a> all over the world."
 
 - name: Preet Singh
+  social: "@singhdaddy"
+  image: preet.jpg
+  bio: "Preet Singh works in scalability architecture, data modeling, and well, anything to do with algorithms. Previously he’s been an entrepreneur and has published research in artificial intelligence. He’s been a proponent of Go ever since using it to prototype REST APIs. Preet has an undergraduate degree in Computer Science & Economics from the University of Rochester and is a member of the Denver Go community. "
 
