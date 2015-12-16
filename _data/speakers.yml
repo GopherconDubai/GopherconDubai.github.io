@@ -51,5 +51,10 @@
   image: kedarnag.jpg
   bio: "Kedarnag M S is working with Qwinix Technologies, Mysore. By passion, he is a traveller, shutterbug enthusiast, table tennis and a gamer geek. By profession, an observant and spirited tech-buff, who is an ardent believer of the power of - Golang and Ruby on Rails."
 
+- name: Aaron Cruz
+  social: "@mraaroncruz"
+  image: aaroncruz.jpg
+  bio: "Aaron lives in the suburbs of Vienna, Austria but is a native of the suburbs of Seattle. In his former life he was a shepherd, a cheesemaker and a sous chef. Now he is freelancing, building native iOS and Android apps and their respective API's. In his spare time, he organizes a range of user groups in Vienna and <a target='_blank' href='http://rossconf.io'>rossconf.io</a> all over the world."
+
 - name: Preet Singh
 
