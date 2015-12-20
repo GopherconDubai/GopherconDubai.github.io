@@ -29,7 +29,8 @@
 
 - name: Loïc Tosser
   social: "@wowi42"
-  image: loic.jpg
+  image: loic.png
+  bio: "Loïc is the CTO of Aswat Telecom, a company specialized in contact center software. Ex-Epitech France, Loïc went to Russia, to the St. Petersburg State University of Telecommunications, Russian Federation, and discovered Go there. When he was back to France, he tried to push the usage of Go on multiple projects, and that's how he began to use Go in production for a massive storage system. After one year and a half, he moved to Dubai, to build a new startup My-Sign, programmed only in Go for the Backend and SysAdmin. Finally, he moved to Aswat Telecom, and on top of his CTO job, he is the Lead DevOps of the company too. He is using Go a lot, especially for DevOps tools, gateways, backup system. Except Go, Loïc has big interests in TSDB, FreeBSD, Xen, Unikernel and Python."
 
 - name: Piyush Verma
   social: "@meson10"
