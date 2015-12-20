@@ -17,6 +17,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/GopherConAE/
 
+register_url:
 # Build settings
 markdown: kramdown
 permalink: pretty

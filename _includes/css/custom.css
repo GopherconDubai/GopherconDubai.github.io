@@ -524,4 +524,10 @@ body {
   text-decoration: underline;
 }
 
-
+.bordered-nav {
+  border: 1px solid {{ site.color.brand }};
+}
+.bordered-nav:hover {
+  color: white;
+  background: {{ site.color.brand }};
+}
