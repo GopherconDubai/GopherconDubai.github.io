@@ -7,11 +7,6 @@
   image: marcel.jpg
   bio: "Marcel van Lohuizen is a longtime Googler who works on the Go team, where he now focuses on expanding Go's text processing capabilities. With a background in natural language processing, he started at Google on the search team. Here, among other things, he worked on a deployment system, which segued into his involvement in the development of Borg, Google's large-scale cluster manager. After his move to Zürich he helped grow the local office and went on a multi-year management stint. He ultimately reunited with some old colleagues on the Go team."
 
-- name: William Kennedy
-  social: "@goinggodotnet"
-  image: william.jpg
-  bio: "William Kennedy is a managing partner at Ardan Studios in Miami, FL, a mobile and web app development company. He is also a co-author of the book <a href='http://www.goinactionbook.com/' target='_blank'>Go In Action</a>, the author of the blog <a href='http://www.goinggo.net/' target='_blank'>GoingGo.Net</a> and the organizer for the Go and MongoDB meetups in Miami. Bill is focused on Go education and through his new venture <a href='http://www.ardanstudios.com/' target='_blank'>GoingoGo Training</a>, Bill continues the cause by working with individuals and groups who want to take their Go knowledge and coding skills to the next level. He <a href='https://sourcegraph.com/blog/live/gopherconindia/111541314197' target='_blank'>spoke</a> at GopherConIndia 2016."
-
 - name: Sau Sheong Chang
   social: "@sausheong"
   image: sau.jpg
