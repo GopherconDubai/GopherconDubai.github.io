@@ -171,14 +171,14 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.intro .register-btn{
+.intro .register-btn, .bordered-btn{
   border: 2px solid #fff;
   margin: 5px auto;
   color: white;
   padding: 10px 15px;
 }
 
-.intro .register-btn:hover{
+.intro .register-btn:hover, .bordered-btn:hover {
   border-color: {{ site.color.brand }};
   color: {{ site.color.brand }};
 }
@@ -352,6 +352,22 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.sponsorship {
+  margin-top: 30px;
+  padding-top: 30px;
+  color: black;
+}
+
+.black-btn {
+  color: black;
+  border-color: black;
+}
+
+.black-btn:hover {
+  background: {{ site.color.brand }};
+  color: black;
 }
 
 #map {
