@@ -375,6 +375,20 @@ a:focus {
     height: 200px;
 }
 
+#map-group {
+  position: relative;
+}
+
+#map-info {
+  position: absolute;
+  top: 3%;
+  right: 1%;
+  color: black;
+  background: white;
+  padding: 20px;
+  max-width: 30%;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
