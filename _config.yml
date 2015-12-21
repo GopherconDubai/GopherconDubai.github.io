@@ -2,7 +2,7 @@
 title: "Gophercon Dubai 2016"
 email: "ecosystem@squarecircletech.com"
 url: "https://gophercon.ae"
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "The Go language is taking the world by storm! At the conference you will get to meet, interact and learn from Go experts coming from across the globe."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -17,7 +17,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/GopherConAE/
 
-register_url:
+register_url: "https://www.eventbrite.com/e/gophercon-dubai-2016-tickets-19951951825"
 # Build settings
 markdown: kramdown
 permalink: pretty
