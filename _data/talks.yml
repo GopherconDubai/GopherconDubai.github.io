@@ -1,0 +1,99 @@
+- time: "8:00 to 9:00 AM"
+  topic: "Welcome & Registration"
+  speaker:
+  title: 
+
+- time: "9:00 to 9:10 AM"
+  topic: "Introduction: Theme, Speakers, Partners by MC"
+  speaker: "Gautam Rege"
+  title: "Co-founder, Emerging Technology Trust India"
+
+- time: "9:10 to 9:30 AM"
+  topic: "Keynote: DMCC"
+  speaker: "TBD"
+  title: 
+
+- time: "9:30 to 10:15 AM"
+  topic: "Keynote: Google"
+  speaker: "Franscesc Campoy"
+  title: "Developer Advocate at Google, Golang"
+
+- time: "10:15 to 10:40 AM"
+  topic: "Go for the Web - Good practices and deployment"
+  speaker: "Loïc Tosser"
+  title: "CTO, Aswat Telecom & Media"
+
+- time: "10:40 to 11:00 AM"
+  topic: "Coffee Break"
+  speaker:
+  title: 
+
+- time: "11:00 to 11:25 AM"
+  topic: "Case Study: Cloud in your Cloud, how we built DigitalOcean"
+  speaker: "Matthew Campbell"
+  title: "General Purpose GO Hacker, Digital Ocean"
+
+- time: "11:25 to 11:50 AM"
+  topic: "Modeling Complex Systems with Go and React"
+  speaker: "Sau Sheong Chang"
+  title: "Director of Global Consumer Engineering, PayPal"
+
+- time: "11:50 to 12:15 PM"
+  topic: "TBC"
+  speaker: "Cory LaNou"
+  title: "Go Developer, InfluxDB, Founder & Co-Organizer @DenverGophers"
+
+- time: "12:15 to 12:40 PM"
+  topic: "Fighting the FUD"
+  speaker: "Mark Bates"
+  title: "Founder & Chief Architect, Meta42 Labs"
+
+- time: "12:40 to 1:30 PM"
+  topic: "Lunch / Prayer Break"
+  speaker: 
+  title: 
+
+- time: "1:30 to 1:55 PM"
+  topic: "Addressing Microservices architecture patterns with Gilmour"
+  speaker: "Piyush Varma"
+  title: "Platform & Infrastructure Engineer, Datascale.io"
+
+- time: "1:55 to 2:20 PM"
+  topic: "TBC"
+  speaker: "Aditya Mukerjee"
+  title: "Risk Engineer, Stripe"
+
+- time: "2:20 to 2:45 PM"
+  topic: "Duck! an interface love story"
+  speaker: "Aaron Cruz"
+  title: "Senior Programming Expert & Community rossconf.io"
+
+- time: "2:45 to 3:00 PM"
+  topic: "Coffee Break"
+  speaker: 
+  title: 
+
+- time: "3:00 to 3:25 PM"
+  topic: "API Days: A Comparison of REST APIs in different tech stacks"
+  speaker: "Preet Singh"
+  title: "Scalability & Data Modeling Architect"
+
+- time: "3:25 to 3:50 PM"
+  topic: "Handling Real-World Text in Go"
+  speaker: "Marcel van Lohuizen"
+  title: "Tech Lead Manager, Google"
+
+- time: "3:50 to 4:15 PM"
+  topic: "Gaming with Golang API"
+  speaker: "Kedarnag M.S."
+  title: "Software Developer, Qwinix Technologies"
+
+- time: "4:15 to 4:40 PM"
+  topic: "Running Go Applications on Azure App Service"
+  speaker: "Rami Sarieddine"
+  title: "Sr. Technical Evangelist | Author, Microsoft Gulf"
+
+- time: "5:00 to 5:15 PM"
+  topic: "Closing Remarks : GopherCon Dubai 2016"
+  speaker: "Sameer Sortur"
+  title: "Founder & CEO, SquareCircle Tech"

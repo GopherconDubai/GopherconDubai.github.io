@@ -1,0 +1,18 @@
+    <!-- Schedule  -->
+    <section id="schedule" class="container content-section text-left">
+
+        <h2 class="text-center">Schedule</h2>
+
+        <div class="row">
+          <div class="col-md-12 talks">
+          {% for talk in site.data.talks %}
+            <div class="col-md-12 talk text-center">
+              <div class="col-md-3">{{ talk.time }}</div>
+              <div class="col-md-9">
+                <div class="talk_topic">{{ talk.topic }} {% if talk.speaker %}- {{ talk.speaker }} {% endif %}</div>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+        </div>
+    </section>

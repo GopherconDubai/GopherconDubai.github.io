@@ -362,12 +362,12 @@ a:focus {
 
 .black-btn {
   color: black;
-  border-color: black;
+  border: 1px solid black;
 }
 
 .black-btn:hover {
-  background: {{ site.color.brand }};
   color: black;
+  background: {{ site.color.brand }};
 }
 
 #map {
@@ -384,6 +384,7 @@ a:focus {
   top: 3%;
   right: 1%;
   color: black;
+  border-radius: 2px;
   background: white;
   padding: 20px;
   max-width: 30%;
@@ -556,7 +557,31 @@ body {
 .bordered-nav {
   border: 1px solid {{ site.color.brand }};
 }
+
 .bordered-nav:hover {
   color: white;
   background: {{ site.color.brand }};
+}
+
+.talk {
+  font-size: 1.2em;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.talk:last-child{
+  border-bottom: none;
+}
+
+.talks {
+  background: white;
+  color: black;
+  padding: 10px 40px;
+}
+
+.talk_title {
+}
+
+#schedule {
+  padding-bottom: 20px;
 }
