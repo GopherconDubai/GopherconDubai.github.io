@@ -585,3 +585,7 @@ body {
 #schedule {
   padding-bottom: 20px;
 }
+
+.underborder {
+  border-bottom: 1px solid black;
+}
