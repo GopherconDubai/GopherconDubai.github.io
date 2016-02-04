@@ -27,6 +27,7 @@
   topic: "Coffee Break"
   speaker:
   title: 
+  highlight: true
 
 - time: "11:00 to 11:25 AM"
   topic: "Case Study: Cloud in your Cloud, how we built DigitalOcean"
@@ -52,6 +53,7 @@
   topic: "Lunch / Prayer Break"
   speaker: 
   title: 
+  highlight: true
 
 - time: "1:30 to 1:55 PM"
   topic: "Addressing Microservices architecture patterns with Gilmour"
@@ -72,6 +74,7 @@
   topic: "Coffee Break"
   speaker: 
   title: 
+  highlight: true
 
 - time: "3:00 to 3:25 PM"
   topic: "API Days: A Comparison of REST APIs in different tech stacks"

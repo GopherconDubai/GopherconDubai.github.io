@@ -589,3 +589,6 @@ body {
 .underborder {
   border-bottom: 1px solid black;
 }
+.bold{
+  font-weight: 700;
+}
