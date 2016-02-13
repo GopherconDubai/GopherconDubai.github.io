@@ -10,8 +10,8 @@
 
 - time: "9:10 to 9:30 AM"
   topic: "Keynote: DMCC"
-  speaker: "TBD"
-  title: 
+  speaker: "Ahmad Hassan Noor"
+  title: "Compliance Director, DMCC"
 
 - time: "9:30 to 10:15 AM"
   topic: "Keynote: Google"
@@ -96,7 +96,7 @@
   speaker: "Rami Sarieddine"
   title: "Sr. Technical Evangelist | Author, Microsoft Gulf"
 
-- time: "5:00 to 5:15 PM"
+- time: "4:40 to 4:50 PM"
   topic: "Closing Remarks : GopherCon Dubai 2016"
   speaker: "Sameer Sortur"
   title: "Founder & CEO, SquareCircle Tech"
