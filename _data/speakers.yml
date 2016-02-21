@@ -57,9 +57,9 @@
   image: preet.jpg
   bio: "Preet Singh works in scalability architecture, data modeling, and well, anything to do with algorithms. Previously he’s been an entrepreneur and has published research in artificial intelligence. He’s been a proponent of Go ever since using it to prototype REST APIs. Preet has an undergraduate degree in Computer Science & Economics from the University of Rochester and is a member of the Denver Go community. "
 
-- name: Rami Sarieddine
-  social: "@ramiesays"
-  image: rami.jpg
+- name: Mert Unan
+  social: "@mertunan"
+  image: mert.jpg
   bio: "Rami has been speaking at events, delivering training sessions & workshops on HTML5, Visual Studio, Azure and Windows Apps covering developers, start-ups, tech enthusiasts and university students since 2011.
     Prior to joining Microsoft, He was working as a Software Engineer & Analyst and have been developing for the web for some good 7 years."
 
