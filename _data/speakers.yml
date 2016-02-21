@@ -1,7 +1,7 @@
-- name: Francesc Campoy
-  social: "@francesc"
-  image: francesc.jpg
-  bio: "International software engineer with an extensive experience on C++ developing. Specially interested on software engineering issues,software architecture and design. My aim is to increase my experience on software design and project management, ideally in a dynamic environment."
+- name: Dave Cheney
+  social: "@davecheney"
+  image: dave.jpg
+  bio: "David is a programmer and author from Sydney Australia.Go contributor since February 2011."
 
 - name: Marcel van Lohuizen
   image: marcel.jpg
